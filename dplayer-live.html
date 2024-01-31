@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>DPlayer直播</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+</head>
+
+<body bgcolor="black">
+    <div id="float-dplayer" class="float-dplayer">
+        <div id="dplayer" style="position:absolute;width:100%;height:100%;"></div>
+    </div>
+    <!-- 引入HLS.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.4.10/hls.min.js"></script>
+    <!-- 引入播放器 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dplayer/1.27.1/DPlayer.min.js"></script>
+    <!-- 配置播放器 -->
+    <script>
+        const cors_api = 'https://cors-anywhere.mojy.xyz/'; //cors-anywhere 跨域请求API，默认'https://cors-anywhere.herokuapp.com/'。
+        // 监听请求
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const url = urlParams.get('url');
+        const logo = urlParams.get('logo');
+        const corsAnywhereUrl = cors_api; // Cors Anywhere API
+        if (logo) {
+            window.dpFloat = new DPlayer({
+                container: document.getElementById('dplayer'),
+                live: true,
+                autoplay: true,
+                volume: 1,
+                logo: logo,
+                video: {
+                    url: cors_api + url,
+                    type: 'hls',
+                }
+            });
+        } else {
+            window.dpFloat = new DPlayer({
+                container: document.getElementById('dplayer'),
+                live: true,
+                autoplay: true,
+                volume: 1,
+                video: {
+                    url: cors_api + url,
+                    type: 'hls',
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

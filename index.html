@@ -61,10 +61,6 @@
             clothes = $.cookie('clothes');
         }
     </script>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.4.10/hls.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/4.7.1/dash.all.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/dplayer/1.27.1/DPlayer.min.js"></script>
 </head>
 
 <body class="page play">
@@ -125,8 +121,7 @@
                     <div class="player-box-main">
                         <div class="player-wrapper">
                             <div class="MacPlayer">
-                                <iframe
-                                    src="/template/mxone/html/live/dplayer-live/?url=http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000266303.m3u8"
+                                <iframe src="dplayer-live.html?url=http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/2/live.m3u8"
                                     width="100%" id="myiframe" scrolling="no" frameborder="0"
                                     allowfullscreen="true"></iframe>
                             </div>
@@ -582,7 +577,7 @@
         $(".btnplay").each(function () {
             $(this).click(function () {
                 var url = $(this).attr("data-url");
-                var jj = '/template/mxone/html/live/dplayer-live/?url=';
+                var jj = 'dplayer-live.html?url=';
                 $("#myiframe").attr("src", jj + url);
                 $(this).addClass("selected").removeClass("");
                 $(this).siblings().removeClass("selected").addClass("");
