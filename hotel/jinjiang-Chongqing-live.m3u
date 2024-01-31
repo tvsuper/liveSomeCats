@@ -97,5 +97,5 @@ http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/48/live.m3u8
 http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/49/live.m3u8
 #EXTINF:-1,tvg-name="卡酷少儿",tvg-logo="https://upload.112114.xyz/logo/BTVKaku.png" group-title="其它",卡酷少儿
 http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/50/live.m3u8
-#EXTINF:-1,tvg-name="金鹰卡通",tvg-logo="https://upload.112114.xyz/logo/%E9%87%91%E9%B9%B0%E5%8D%A1%E9%80%9A.png" group-title="卫视",金鹰卡通
+#EXTINF:-1,tvg-name="金鹰卡通",tvg-logo="https://upload.112114.xyz/logo/%E9%87%91%E9%B9%B0%E5%8D%A1%E9%80%9A.png" group-title="其它",金鹰卡通
 http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/51/live.m3u8
