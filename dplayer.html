@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>DPlayer播放器</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+</head>
+<body bgcolor="black">
+    <div id="float-dplayer" class="float-dplayer">
+        <div id="dplayer" style="position:absolute;width:100%;height:100%;"></div>
+    </div>
+    <!-- 引入HLS.JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.4.10/hls.min.js"></script>
+    <!-- 引入FLV.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flv.js/1.6.2/flv.min.js"></script>
+    <!-- 引入DASH.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/4.7.1/dash.all.min.js"></script>
+    <!-- 引入播放器 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dplayer/1.27.1/DPlayer.min.js"></script>
+    <!-- 配置播放器 -->
+    <script>
+        const cors_api = 'https://cors-anywhere.mojy.xyz/'; //cors-anywhere 跨域请求API，默认'https://cors-anywhere.herokuapp.com/'。
+        // 监听请求
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const live = urlParams.get('live');
+        const url = urlParams.get('url');
+        const pic = urlParams.get('pic');
+		const type = urlParams.get('type');
+        const corsAnywhereUrl = cors_api; // Cors Anywhere API
+        // 使用 Fetch API 发送 GET 请求到 CORS Anywhere 代理，并在 Headers 中加入 origin 请求头
+        fetch(`${corsAnywhereUrl}${url}`, {headers: {'Origin': window.location.origin}})
+        .then(response => response.blob())
+        .then(videoBlob => {
+            // 处理视频 Blob 数据
+            const videoUrl = URL.createObjectURL(videoBlob);
+            // 检查是否存在图片参数
+            if (pic) {
+                fetch(`${corsAnywhereUrl}${pic}`, {headers: {'Origin': window.location.origin}})
+                .then(response => response.blob())
+                .then(imageBlob => {
+                    // 处理图片 Blob 数据
+                    const imageUrl = URL.createObjectURL(imageBlob);
+                    // 请求成功，处理响应数据并初始化 DPlayer
+                    // 检测是否存在直播参数
+                    if (live) {
+                        // 如有，则判断为直播
+						// 检测是否存在type参数
+						if(type) {
+						    // 如有，则添加type
+						    window.dpFloat = new DPlayer({
+                                container: document.getElementById('dplayer'),
+                                live: true,
+                                type: type,
+                                preload: 'auto',
+                                screenshot: true,
+                                video: {
+                                    url: videoUrl,
+                                    pic: imageUrl,
+                                    thumbnails: imageUrl
+                                }
+                            });
+						} else {
+						    // 否则则不添加
+						    window.dpFloat = new DPlayer({
+                                container: document.getElementById('dplayer'),
+                                live: true,
+                                preload: 'auto',
+                                screenshot: true,
+                                video: {
+                                    url: videoUrl,
+                                    pic: imageUrl,
+                                    thumbnails: imageUrl
+                                }
+                            });
+						}
+                    } else {
+                        // 否则则为视频
+                        // 检测是否存在type参数
+						if(type) {
+						    // 如有，则添加type
+						    window.dpFloat = new DPlayer({
+                                container: document.getElementById('dplayer'),
+                                type: type,
+                                preload: 'auto',
+                                screenshot: true,
+                                video: {
+                                    url: videoUrl,
+                                    pic: imageUrl,
+                                    thumbnails: imageUrl
+                                }
+                            });
+						} else {
+						    // 否则则不添加
+						    window.dpFloat = new DPlayer({
+                                container: document.getElementById('dplayer'),
+                                preload: 'auto',
+                                screenshot: true,
+                                video: {
+                                    url: videoUrl,
+                                    pic: imageUrl,
+                                    thumbnails: imageUrl
+                                }
+                            });
+                        }
+                    }
+                });
+            } else {
+                // 如果没有图片参数，仅初始化 DPlayer 并加载视频
+                // 检测是否存在直播参数
+                if (live) {
+                    // 如有，则判断为直播
+                    // 检测是否存在type参数
+					if(type) {
+						// 如有，则添加type
+						window.dpFloat = new DPlayer({
+                            container: document.getElementById('dplayer'),
+                            live: true,
+                            type: type,
+                            preload: 'auto',
+                            screenshot: true,
+                            video: {
+                                url: videoUrl
+                            }
+                        });
+					} else {
+						// 否则则不添加
+						window.dpFloat = new DPlayer({
+                            container: document.getElementById('dplayer'),
+                            live: true,
+                            preload: 'auto',
+                            screenshot: true,
+                            video: {
+                                url: videoUrl
+                            }
+                        });
+					}
+                } else {
+                    // 否则则为视频
+                    // 检测是否存在type参数
+					if(type) {
+						// 如有，则添加type
+						window.dpFloat = new DPlayer({
+                            container: document.getElementById('dplayer'),
+                            type: type,
+                            preload: 'auto',
+                            screenshot: true,
+                            video: {
+                                url: videoUrl
+                            }
+                        });
+					} else {
+						// 否则则不添加
+						window.dpFloat = new DPlayer({
+                            container: document.getElementById('dplayer'),
+                            preload: 'auto',
+                            screenshot: true,
+                            video: {
+                                url: videoUrl,
+                            }
+                        });
+					}
+                }
+            }
+        });
+    </script>
+</body>
+</html>

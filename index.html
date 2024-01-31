@@ -1,0 +1,624 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>🐱猫咪直播 - 在线观看电视直播</title>
+    <meta name="keywords" content="直播,电视直播,在线直播,免费观看" />
+    <meta name="description" content="免费观看电视直播" />
+    <meta name="referrer" content="always">
+    <meta name="referrer" content="no-referrer" />
+    <script>var maccms = { "path": "", "mid": "", "url": "", "wapurl": "", "mob_status": "0" };</script>
+    <link rel="icon" href="favicon.ico" type="image/png" />
+    <link href="static/css/style.css" rel="stylesheet" type="text/css">
+    <link href="static/css/aliicon.css" rel="stylesheet" type="text/css">
+    <link href="static/css/index.css" rel="stylesheet" type="text/css">
+    <link disabled="" class="theme_black" type="text/css" rel="stylesheet" href="static/css/mxhtmlblack.css">
+    <script src="static/js/jquery.js"></script>
+    <script type="text/javascript" src="static/js/jquery.lazyload.js"></script>
+    <script src="static/js/jquery.autocomplete.js"></script>
+    <script src="static/js/vue.min.js"></script>
+    <script src="static/js/index.js"></script>
+    <script src="static/js/jquery.cookie.js"></script>
+    <script src="static/js/home.js"></script>
+    <script type="text/javascript" src="static/js/jquery.clipboard.js"></script>
+    <script src="static/js/layer.js"></script>
+    <script src="static/js/js_push.js"></script>
+    <script type="text/javascript" src="static/js/swiper.min.js"></script>
+    <script src="static/js/script.js"></script>
+    <script>
+        var clothes = $.cookie('clothes');
+        if (clothes) {
+            if (clothes == 'white') {
+                $('.theme_black').removeAttr('disabled');
+            } else {
+                $('.theme_black').attr('disabled', '');
+            }
+        } else {
+            $.cookie('clothes', 'black', { expires: 365, path: '/' })
+        }
+        (function () {
+            console.log = function () { }
+        })()
+    </script>
+    <script>
+
+        function clothesChange() {
+            var clothes = $.cookie('clothes');
+            if (clothes == 'black') {
+                $.cookie('clothes', 'white', { expires: 365, path: '/' });
+                $('.theme_black').each(function () {
+                    $(this).removeAttr('disabled');
+                });
+
+            } else {
+                $.cookie('clothes', 'black', { expires: 365, path: '/' });
+                $('.theme_black').each(function () {
+                    $(this).attr('disabled', '');
+                });
+            }
+            clothes = $.cookie('clothes');
+        }
+    </script>
+
+    <script type="text/javascript">
+        var MacPlayer = { "PlayUrl": "http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000266303.m3u8" };
+    </script>
+</head>
+
+<body class="page play">
+    <header id="header" class="wrapper">
+        <div class="header-content  ">
+            <div class="content">
+                <div class="brand">
+                    <a href="/" class="logo" title="🐱猫咪直播 - 在线观看电视直播"><img src="favicon.ico"
+                            alt="🐱猫咪直播 - 在线观看电视直播"></a>
+                </div>
+
+                <div class="nav">
+                    <ul class="nav-menu-items">
+                        <li class="nav-menu-item selected">
+                            <a href="/" title="🐱猫咪直播 - 在线观看电视直播">
+                                <span class="nav-menu-item-name">首页</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        $(".nav-menu-search").click(function () {
+            $(".nav-search").addClass("block");
+        });
+
+        $(document).scroll(function () {
+            var H = $(document).scrollTop();
+            if (H > 20) {
+                $(".header-content").addClass("header-bg");
+            } else {
+                $(".header-content").removeClass("header-bg");
+            }
+            if (H > 80) {
+                $(".header-content").addClass("header-bg");
+                $(".search-dh").append($(".search-box"));
+                $(".nav-menu-search").click(function () {
+                    $(".nav-search").addClass("block");
+                });
+            } else {
+                $(".header-content").removeClass("header-bg");
+
+                $(".search-main").append($(".search-box"));
+
+            }
+        });
+    </script>
+
+
+
+    <main id="main" class="wrapper">
+
+        <div class="player-block">
+            <div class="content">
+                <div class="player-box">
+                    <div class="player-box-main">
+                        <div class="player-wrapper">
+                            <div class="MacPlayer">
+                                <iframe
+                                    src="/template/mxone/html/live/dplayer-live/?url=http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000266303.m3u8"
+                                    width="100%" id="myiframe" scrolling="no" frameborder="0"
+                                    allowfullscreen="true"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="player-box-side">
+                    <div class="module-heading">
+                        <h2 class="module-title">在线观看</h2>
+                        <div class="module-tab module-player-tab  player-side-tab">
+                            <input type="hidden" name="tab" id="tab" class="module-tab-input">
+                            <label class="module-tab-name"><span class="module-tab-value">央视频道</span><i
+                                    class="icon-arrow-bottom-o"></i></label>
+                            <div class="module-tab-items">
+                                <div class="module-tab-title">播放节点列表<span class="close-drop"><i
+                                            class="icon-close-o"></i></span></div>
+                                <div class="module-tab-content">
+                                    <div class="module-tab-item tab-item selected" data-dropdown-value="央视频道">
+                                        <span>央视频道</span>
+                                    </div>
+                                    <div class="module-tab-item tab-item " data-dropdown-value="卫视频道"><span>卫视频道</span>
+                                    </div>
+                                    <!--                 <div class="module-tab-item tab-item " data-dropdown-value="剧场频道"><span>剧场频道</span></div>
+                 <div class="module-tab-item tab-item " data-dropdown-value="地方频道"><span>地方频道</span></div>-->
+                                    <div class="module-tab-item tab-item " data-dropdown-value="国外频道"><span>国外频道</span>
+                                    </div>
+                                    <div class="module-tab-item tab-item " data-dropdown-value="少儿频道"><span>少儿频道</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--央视频道-->
+                        <div class="shortcuts-mobile-overlay"></div>
+                    </div>
+
+                    <div class="module-list module-player-list tab-list sort-list selected player-side-playlist">
+                        <div class="module-blocklist scroll-box scroll-box-y">
+                            <div class="scroll-content live-content">
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000266303.m3u8"
+                                    class="selected btnplay"><span>CCTV-4K</span></a>
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2012492303.m3u8"
+                                    class="btnplay"><span>CCTV16-4K</span></a>
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000210103.m3u8"
+                                    class="btnplay"><span>CCTV-1高清</span></a>
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000203603.m3u8"
+                                    class="btnplay"><span>CCTV-2高清</span></a>
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000203803.m3u8"
+                                    class="btnplay"><span>CCTV-3高清</span></a>
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000204803.m3u8"
+                                    class="btnplay"><span>CCTV-4高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/cctv4/1300000/mnf.m3u8"
+                                    class="btnplay"><span>CCTV-4标清</span></a>
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000205103.m3u8"
+                                    class="btnplay"><span>CCTV-5高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://newvideo.dangtutv.cn:8278/CCTVsports/playlist.m3u8"
+                                    class="btnplay"><span>CCTV-5标清</span></a>
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000204503.m3u8"
+                                    class="btnplay"><span>CCTV-5+高清</span></a>
+
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000203303.m3u8"
+                                    class="btnplay"><span>CCTV-6高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/cctv6hd/2300000/mnf.m3u8"
+                                    class="btnplay"><span>CCTV-6HD</span></a>
+
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000510003.m3u8"
+                                    class="btnplay"><span>CCTV-7高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/cctv7/1300000/mnf.m3u8"
+                                    class="btnplay"><span>CCTV-7标清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/cctv7/1300000/mnf.m3u8"
+                                    class="btnplay"><span>CCTV-7备用</span></a>
+
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000203903.m3u8"
+                                    class="btnplay"><span>CCTV-8高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/cctv8hd/2300000/mnf.m3u8"
+                                    class="btnplay"><span>CCTV-8标清</span></a>
+
+
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000499403.m3u8"
+                                    class="btnplay"><span>CCTV-9高清</span></a>
+
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000203503.m3u8"
+                                    class="btnplay"><span>CCTV-10高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/cctv10/1300000/mnf.m3u8"
+                                    class="btnplay"><span>CCTV-10标清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/cctv10hd/2300000/mnf.m3u8"
+                                    class="btnplay"><span>CCTV-10备用</span></a>
+
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000204103.m3u8"
+                                    class="btnplay"><span>CCTV-11高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/cctv11/1300000/mnf.m3u8"
+                                    class="btnplay"><span>CCTV-11标清</span></a>
+
+
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000202603.m3u8"
+                                    class="btnplay"><span>CCTV-12高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/cctv12/1300000/mnf.m3u8"
+                                    class="btnplay"><span>CCTV-12标清</span></a>
+
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000204603.m3u8"
+                                    class="btnplay"><span>CCTV-13高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/cctvxw/1300000/mnf.m3u8"
+                                    class="btnplay"><span>CCTV-13标清</span></a>
+
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000204403.m3u8"
+                                    class="btnplay"><span>CCTV-14高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/cctvse/1300000/mnf.m3u8"
+                                    class="btnplay"><span>CCTV-14标清</span></a>
+
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000205003.m3u8"
+                                    class="btnplay"><span>CCTV-15高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/cctvyy/1300000/mnf.m3u8"
+                                    class="btnplay"><span>CCTV-15标清</span></a>
+
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2012375003.m3u8"
+                                    class="btnplay"><span>CCTV-16高清</span></a>
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2012492303.m3u8"
+                                    class="btnplay"><span>CCTV-16-4K</span></a>
+
+                                <a href="javascript:;" data-url="http://tlivectfree-cdn.ysp.cctv.cn/ysp/2000204203.m3u8"
+                                    class="btnplay"><span>CCTV-17高清</span></a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--卫视频道-->
+                    <div class="module-list module-player-list tab-list sort-list  player-side-playlist">
+                        <div class="module-blocklist scroll-box scroll-box-y">
+                            <div class="scroll-content live-content">
+
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/hnwshd/4000000/mnf.m3u8"
+                                    class="selected btnplay"><span>湖南卫视高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://shbu.live.bestvcdn.com.cn:8080/live/program/live/hnwshd/2300000/mnf.m3u8"
+                                    class="btnplay"><span>湖南卫视备用</span></a>
+
+                                <a href="javascript:;"
+                                    data-url="http://hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8"
+                                    class="btnplay"><span>浙江卫视高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://yd-vl.cztv.com/channels/lantian/channel01/720p.m3u8"
+                                    class="btnplay"><span>浙江卫视备用</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/zjwshd/4000000/mnf.m3u8"
+                                    class="btnplay"><span>浙江卫视标清</span></a>
+
+
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/jswshd/4000000/mnf.m3u8"
+                                    class="btnplay"><span>江苏卫视高清</span></a>
+
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/tjwshd/2300000/mnf.m3u8"
+                                    class="btnplay"><span>天津卫视高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/tjwshd/4000000/mnf.m3u8"
+                                    class="btnplay"><span>天津卫视备用</span></a>
+
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/hddfws/2300000/mnf.m3u8"
+                                    class="btnplay"><span>东方卫视高清</span></a>
+
+
+                                <a href="javascript:;"
+                                    data-url="https://live1.ahtv.cn/ahws/hd/live.m3u8?_upt=2942ded71650864719"
+                                    class="btnplay"><span>安徽卫视高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/ahwshd/2300000/mnf.m3u8"
+                                    class="btnplay"><span>安徽卫视备用</span></a>
+
+
+                                <a href="javascript:;" data-url="https://live.funhillrm.com/2/sd/live.m3u8"
+                                    class="btnplay"><span>北京卫视高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/bjwshd/4000000/mnf.m3u8"
+                                    class="btnplay"><span>北京卫视备用</span></a>
+
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/jxwshd/2300000/mnf.m3u8"
+                                    class="btnplay"><span>江西卫视高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/jxwshd/4000000/mnf.m3u8"
+                                    class="btnplay"><span>江西卫视高清</span></a>
+
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/lnwshd/4000000/mnf.m3u8"
+                                    class="btnplay"><span>辽宁卫视高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/lnwshd/2300000/mnf.m3u8"
+                                    class="btnplay"><span>辽宁卫视备用</span></a>
+
+                                <a href="javascript:;"
+                                    data-url="http://shbu.live.bestvcdn.com.cn:8080/live/program/live/ynws/1300000/mnf.m3u8"
+                                    class="btnplay"><span>云南卫视标清</span></a>
+
+                                <a href="javascript:;" data-url="https://sztv-live.cutv.com/AxeFRth/500/b7hxsFl.m3u8"
+                                    class="btnplay"><span>深圳卫视标清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/szwshd/4000000/mnf.m3u8"
+                                    class="btnplay"><span>深圳卫视标清</span></a>
+
+
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/gdwshd/2300000/mnf.m3u8"
+                                    class="btnplay"><span>广东卫视高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/gdwshd/4000000/mnf.m3u8"
+                                    class="btnplay"><span>广东卫视备用</span></a>
+
+
+
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/hljwshd/2300000/mnf.m3u8"
+                                    class="btnplay"><span>黑龙江卫视</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/hljwshd/4000000/mnf.m3u8"
+                                    class="btnplay"><span>黑龙江卫视</span></a>
+
+
+                                <a href="javascript:;" data-url="http://live21-cjy.hbtv.com.cn/hbtv/hbtv-hbws.m3u8"
+                                    class="btnplay"><span>湖北卫视高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.37/liveplay-kk.rtxapp.com/live/program/live/hbwshd/2300000/mnf.m3u8"
+                                    class="btnplay"><span>湖北卫视备用</span></a>
+
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/sdwshd/2300000/mnf.m3u8"
+                                    class="btnplay"><span>山东卫视高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/sdwshd/4000000/mnf.m3u8"
+                                    class="btnplay"><span>山东卫视高清</span></a>
+
+                                <a href="javascript:;"
+                                    data-url="https://sjlivecdn9.cbg.cn/202204251238/app_2/_definst_/ls_2.stream/chunklist.m3u8"
+                                    class="btnplay"><span>重庆卫视高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/cqws/1300000/mnf.m3u8"
+                                    class="btnplay"><span>重庆卫视备用</span></a>
+
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/dnwshd/2300000/mnf.m3u8"
+                                    class="btnplay"><span>福建东南卫视高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/dnwshd/4000000/mnf.m3u8"
+                                    class="btnplay"><span>福建东南卫视高清</span></a>
+
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/scws/1300000/mnf.m3u8"
+                                    class="btnplay"><span>四川卫视高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://shbu.live.bestvcdn.com.cn:8080/live/program/live/scws/1300000/mnf.m3u8"
+                                    class="btnplay"><span>四川卫视高清</span></a>
+
+
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/hnws/1300000/mnf.m3u8"
+                                    class="btnplay"><span>河南卫视高清</span></a>
+
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/gxws/1300000/mnf.m3u8"
+                                    class="btnplay"><span>广西卫视高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://shbu.live.bestvcdn.com.cn:8080/live/program/live/gxws/1300000/mnf.m3u8"
+                                    class="btnplay"><span>广西卫视高清</span></a>
+
+                                <a href="javascript:;" data-url="http://stream1.jlntv.cn/jlws/sd/live.m3u8"
+                                    class="btnplay"><span>吉林卫视高清</span></a>
+
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/nmgws/1300000/mnf.m3u8"
+                                    class="btnplay"><span>内蒙古卫视高清</span></a>
+
+                                <!--<a href="javascript:;" data-url="http://stream3.hnntv.cn/hnws/sd/live.m3u8?_upt=fb2ad28f1639907236" class="btnplay"><span>海南卫视高清</span></a>-->
+
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/gzws/1300000/mnf.m3u8"
+                                    class="btnplay"><span>贵州卫视高清</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/shanxiws/1300000/mnf.m3u8"
+                                    class="btnplay"><span>山西卫视高清</span></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--          <div class="module-list module-player-list tab-list sort-list  player-side-playlist">
+          <div class="module-blocklist scroll-box scroll-box-y">
+            <div class="scroll-content live-content">
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100073/otpzod_otpzod,100073_hls_pull_2000K_live.m3u8" class="btnplay"><span>CHC动作电影</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100030/otpzod_otpzod,100030_hls_pull_2000K_live.m3u8" class="btnplay"><span>CIBN骄阳剧场</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100031/otpzod_otpzod,100031_hls_pull_2000K_live.m3u8" class="btnplay"><span>CIBN古装剧场</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100032/otpzod_otpzod,100032_hls_pull_2000K_live.m3u8" class="btnplay"><span>CIBN经典剧场</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100033/otpzod_otpzod,100033_hls_pull_2000K_live.m3u8" class="btnplay"><span>CIBN流金岁月</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100034/otpzod_otpzod,100034_hls_pull_2000K_live.m3u8" class="btnplay"><span>CIBN动画乐园</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100035/otpzod_otpzod,100035_hls_pull_2000K_live.m3u8" class="btnplay"><span>CIBN风尚运动</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100036/otpzod_otpzod,100036_hls_pull_2000K_live.m3u8" class="btnplay"><span>环球奇观</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100038/otpzod_otpzod,100038_hls_pull_2000K_live.m3u8" class="btnplay"><span>CIBN纪录片</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100039/otpzod_otpzod,100039_hls_pull_2000K_live.m3u8" class="btnplay"><span>CIBN真人秀</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100040/otpzod_otpzod,100040_hls_pull_2000K_live.m3u8" class="btnplay"><span>CIBN微电影</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100041/otpzod_otpzod,100041_hls_pull_2000K_live.m3u8" class="btnplay"><span>CIBN综合</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100069/otpzod_otpzod,100069_hls_pull_2000K_live.m3u8" class="btnplay"><span>家庭理*</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100070/otpzod_otpzod,100070_hls_pull_2000K_live.m3u8" class="btnplay"><span>快乐垂钓</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100071/otpzod_otpzod,100071_hls_pull_2000K_live.m3u8" class="btnplay"><span>先锋乒羽</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100072/otpzod_otpzod,100072_hls_pull_2000K_live.m3u8" class="btnplay"><span>茶频道</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100074/otpzod_otpzod,100074_hls_pull_2000K_live.m3u8" class="btnplay"><span>嘉佳卡通</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100075/otpzod_otpzod,100075_hls_pull_2000K_live.m3u8" class="btnplay"><span>中样新影-老故事</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100076/otpzod_otpzod,100076_hls_pull_2000K_live.m3u8" class="btnplay"><span>中华特产</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100077/otpzod_otpzod,100077_hls_pull_2000K_live.m3u8" class="btnplay"><span>四海钓鱼</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100078/otpzod_otpzod,100078_hls_pull_2000K_live.m3u8" class="btnplay"><span>车迷频道</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100079/otpzod_otpzod,100079_hls_pull_2000K_live.m3u8" class="btnplay"><span>优优宝贝</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100080/otpzod_otpzod,100080_hls_pull_2000K_live.m3u8" class="btnplay"><span>环球旅游</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100081/otpzod_otpzod,100081_hls_pull_2000K_live.m3u8" class="btnplay"><span>江苏靓妆</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100082/otpzod_otpzod,100082_hls_pull_2000K_live.m3u8" class="btnplay"><span>新动漫</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100083/otpzod_otpzod,100083_hls_pull_2000K_live.m3u8" class="btnplay"><span>中华美食</span></a>
+
+
+            </div>
+          </div>
+        </div>
+        
+
+          <div class="module-list module-player-list tab-list sort-list  player-side-playlist">
+          <div class="module-blocklist scroll-box scroll-box-y">
+            <div class="scroll-content live-content">     
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100043/otpzod_hn,100043_hls_pull_2000K_live.m3u8" class="btnplay"><span>贵州公共</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100044/otpzod_hn,100044_hls_pull_2000K_live.m3u8" class="btnplay"><span>贵州影视文艺</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100045/otpzod_hn,100045_hls_pull_2000K_live.m3u8" class="btnplay"><span>贵州大众生活</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100046/otpzod_hn,100046_hls_pull_2000K_live.m3u8" class="btnplay"><span>贵州法制</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100047/otpzod_hn,100047_hls_pull_2000K_live.m3u8" class="btnplay"><span>贵州科教健康</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100048/otpzod_hn,100048_hls_pull_2000K_live.m3u8" class="btnplay"><span>贵州经济</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100049/otpzod_hn,100049_hls_pull_2000K_live.m3u8" class="btnplay"><span>贵阳新闻综合</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100050/otpzod_hn,100050_hls_pull_2000K_live.m3u8" class="btnplay"><span>贵阳经济生活</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100051/otpzod_hn,100051_hls_pull_2000K_live.m3u8" class="btnplay"><span>贵阳法制</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100052/otpzod_hn,100052_hls_pull_2000K_live.m3u8" class="btnplay"><span>贵阳都市</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100054/otpzod_hn,100054_hls_pull_2000K_live.m3u8" class="btnplay"><span>遵义综合</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100055/otpzod_hn,100055_hls_pull_2000K_live.m3u8" class="btnplay"><span>遵义公共</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100056/otpzod_hn,100056_hls_pull_2000K_live.m3u8" class="btnplay"><span>遵义都市</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100057/otpzod_hn,100057_hls_pull_2000K_live.m3u8" class="btnplay"><span>毕节1</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100058/otpzod_hn,100058_hls_pull_2000K_live.m3u8" class="btnplay"><span>毕节2</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100059/otpzod_hn,100059_hls_pull_2000K_live.m3u8" class="btnplay"><span>六盘水新闻综合</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100060/otpzod_otpzod,100060_hls_pull_2000K_live.m3u8" class="btnplay"><span>六盘水公共</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100061/otpzod_hn,100061_hls_pull_2000K_live.m3u8" class="btnplay"><span>黔西南公共</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100062/otpzod_otpzod,100062_hls_pull_2000K_live.m3u8" class="btnplay"><span>黔西南综合</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100063/otpzod_hn,100063_hls_pull_2000K_live.m3u8" class="btnplay"><span>安顺新闻综合</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100064/otpzod_hn,100064_hls_pull_2000K_live.m3u8" class="btnplay"><span>安顺公共</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100065/otpzod_hn,100065_hls_pull_2000K_live.m3u8" class="btnplay"><span>黔南新闻综合</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100066/otpzod_hn,100066_hls_pull_2000K_live.m3u8" class="btnplay"><span>黔南公共</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100067/otpzod_otpzod,100067_hls_pull_2000K_live.m3u8" class="btnplay"><span>铜仁新闻综合</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100068/otpzod_hn,100068_hls_pull_2000K_live.m3u8" class="btnplay"><span>铜仁公共</span></a>        
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100084/otpzod_otpzod,100084_hls_pull_2000K_live.m3u8" class="btnplay"><span>广州综合</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100085/otpzod_otpzod,100085_hls_pull_2000K_live.m3u8" class="btnplay"><span>广州新闻</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100086/otpzod_otpzod,100086_hls_pull_2000K_live.m3u8" class="btnplay"><span>广州影视</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100087/otpzod_otpzod,100087_hls_pull_2000K_live.m3u8" class="btnplay"><span>广州法治</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100088/otpzod_otpzod,100088_hls_pull_2000K_live.m3u8" class="btnplay"><span>广州竞赛</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100089/otpzod_hn,100089_hls_pull_2000K_live.m3u8" class="btnplay"><span>河南都市</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100090/otpzod_hn,100090_hls_pull_2000K_live.m3u8" class="btnplay"><span>河南民生</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100091/otpzod_hn,100091_hls_pull_2000K_live.m3u8" class="btnplay"><span>河南法治</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100092/otpzod_hn,100092_hls_pull_2000K_live.m3u8" class="btnplay"><span>河南电视剧</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100093/otpzod_hn,100093_hls_pull_2000K_live.m3u8" class="btnplay"><span>河南新闻</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100094/otpzod_hn,100094_hls_pull_2000K_live.m3u8" class="btnplay"><span>河南欢腾购物</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100095/otpzod_hn,100095_hls_pull_2000K_live.m3u8" class="btnplay"><span>河南公共</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100096/otpzod_otpzod,100096_hls_pull_2000K_live.m3u8" class="btnplay"><span>郑州教育</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100097/otpzod_otpzod,100097_hls_pull_2000K_live.m3u8" class="btnplay"><span>河北都市</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100098/otpzod_otpzod,100098_hls_pull_2000K_live.m3u8" class="btnplay"><span>河北公共</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100099/otpzod_hn,100099_hls_pull_2000K_live.m3u8" class="btnplay"><span>河北经济</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100100/otpzod_otpzod,100100_hls_pull_2000K_live.m3u8" class="btnplay"><span>河北农民</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100101/otpzod_hn,100101_hls_pull_2000K_live.m3u8" class="btnplay"><span>河北少儿科教</span></a>
+<a href="javascript:;" data-url="https://womlive.cloud.wo.cn/tvlive/100102/otpzod_hn,100102_hls_pull_2000K_live.m3u8" class="btnplay"><span>河北影视剧</span></a>
+            </div>
+          </div>
+        </div>   -->
+                    <!--国外频道-->
+                    <div class="module-list module-player-list tab-list sort-list  player-side-playlist">
+                        <div class="module-blocklist scroll-box scroll-box-y">
+                            <div class="scroll-content live-content">
+                                <a href="javascript:;" data-url="http://live.cgtn.com/1000/prog_index.m3u8"
+                                    class="btnplay"><span>CGTN NEWS</span></a>
+                                <a href="javascript:;" data-url="https://livefr.cgtn.com/1000f/prog_index.m3u8"
+                                    class="btnplay"><span>CGTN 法语</span></a>
+                                <a href="javascript:;" data-url="https://livees.cgtn.com/1000e/prog_index.m3u8"
+                                    class="btnplay"><span>CGTN 西语</span></a>
+                                <a href="javascript:;" data-url="https://livear.cgtn.com/1000a/prog_index.m3u8"
+                                    class="btnplay"><span>CGTN 阿语</span></a>
+                                <a href="javascript:;" data-url="http://news.cgtn.com/resource/live/russian/cgtn-r.m3u8"
+                                    class="btnplay"><span>CGTN 俄语</span></a>
+                                <a href="javascript:;" data-url="https://livedoc.cgtn.com/1000d/prog_index.m3u8"
+                                    class="btnplay"><span>CGTN 记录</span></a>
+                                <a href="javascript:;" data-url="http://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8"
+                                    class="btnplay"><span>凤凰卫视中文</span></a>
+                                <a href="javascript:;" data-url="http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8"
+                                    class="btnplay"><span>凤凰卫视音乐</span></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--少儿频道-->
+                    <div class="module-list module-player-list tab-list sort-list  player-side-playlist">
+                        <div class="module-blocklist scroll-box scroll-box-y">
+                            <div class="scroll-content live-content">
+                                <a href="javascript:;"
+                                    data-url="http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8"
+                                    class="selected btnplay"><span>浙江少儿</span></a>
+
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/jykt/1300000/mnf.m3u8"
+                                    class="btnplay"><span>金鹰卡通</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://kttctv.gdtv.cn/live/jjkt.m3u8?auth_key=1650877204-0-0-e8f1a0a4b09ae1e285f2904fdcaa6355"
+                                    class="btnplay"><span>嘉佳卡通</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://219.151.31.38/liveplay-kk.rtxapp.com/live/program/live/jjkt/1300000/mnf.m3u8"
+                                    class="btnplay"><span>嘉佳卡通2</span></a>
+                                <a href="javascript:;"
+                                    data-url="http://setctv.gdtv.cn/live/gdse.m3u8?auth_key=1650875943-0-0-23b46e77aa78080fafbeb8772a857752"
+                                    class="btnplay"><span>广东少儿</span></a>
+                                <a href="javascript:;" data-url="http://live6.plus.hebtv.com/sekjx/hd/live.m3u8"
+                                    class="btnplay"><span>河北少儿科教</span></a>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+    </main>
+
+    <script type="text/javascript">
+        $(".btnplay").each(function () {
+            $(this).click(function () {
+                var url = $(this).attr("data-url");
+                var jj = '/template/mxone/html/live/dplayer-live/?url=';
+                $("#myiframe").attr("src", jj + url);
+                $(this).addClass("selected").removeClass("");
+                $(this).siblings().removeClass("selected").addClass("");
+            });
+        });
+    </script>
+    <footer id="footer" class="wrapper pd60">
+        <p class="sitemap"><img src="favicon.ico" height="10">
+            <a target="_blank" href="about.html">关于</a><span class="space-line-bold"></span>
+            <a target="_blank" href="https://github.com/tvsuper/liveSomeCats">GitHub</a>
+        </p>
+        <p>本站所有内容均来自网络，未提供资源上传、存储服务。内容与本站无关，本站不对内容可用性做保证。（若涉及侵权请联系相关作者处理）</p>
+    </footer>
+
+    <script type="text/javascript">
+        $("#clothes").on('click', function () {
+            $(this).children(".iconfont").toggleClass("icon-rijianmoshi");
+            $(this).children(".iconfont").toggleClass("icon-a-yejian2")
+        });
+    </script>
+    <!--新的-->
+    <script type="text/javascript">
+        document.onkeydown = function () {
+
+            var e = window.event || arguments[0];
+
+        }
+    </script>
+    <!--新的-->
+
+    <div class="shortcuts-mobile-overlay"></div>
+    <script src="static/js/mxhtml.js"></script>
+    <script src="static/js/mxui.js"></script>
+    <!-- 底部广告位 -->
+
+
+</body>
+
+</html>
