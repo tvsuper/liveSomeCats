@@ -4,7 +4,8 @@
 ## 电视直播源如何使用
 我们采用通用的 M3U 格式，您也可以自行通过我们开发的转换器 [将于此项目内置](https://github.com/tvsuper/epg) 转换为多种格式使用
 ## 直播源列表
-
+### 酒店
+1. 重庆锦江酒店：https://raw.githubusercontent.com/tvsuper/liveSomeCats/master/hotel/jinjiang-Chongqing-live.m3u
 ## 重要说明
 1. 🐱猫咪直播源接口只负责维护电视直播源内容，其它任何资源内容均来自网络，与作者无关。（若涉及侵权请联系相关作者处理）
 2. 🐱猫咪直播不存在主动参与任何营利性的内容，以上所有内容仅供学习交流使用，任何人不得私自商用、传播、篡改等，违者承担法律责任。
