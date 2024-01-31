@@ -1,0 +1,101 @@
+#EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml.gz"
+#EXTINF:-1,tvg-name="CCTV-1",tvg-logo="https://upload.112114.xyz/logo/cn/cctv/CCTV-1.png" group-title="央视",CCTV-1综合
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/2/live.m3u8
+#EXTINF:-1,tvg-name="CCTV-2",tvg-logo="https://upload.112114.xyz/logo/cn/cctv/CCTV-2.png" group-title="央视",CCTV-2财经
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/3/live.m3u8
+#EXTINF:-1,tvg-name="CCTV-3",tvg-logo="https://upload.112114.xyz/logo/cn/cctv/CCTV-3.png" group-title="央视",CCTV-3综艺
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/4/live.m3u8
+#EXTINF:-1,tvg-name="CCTV-4",tvg-logo="https://upload.112114.xyz/logo/cn/cctv/CCTV-4.png" group-title="央视",CCTV-4中文国际
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/5/live.m3u8
+#EXTINF:-1,tvg-name="CCTV-5",tvg-logo="https://upload.112114.xyz/logo/cn/cctv/CCTV-5.png" group-title="央视",CCTV-5体育
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/6/live.m3u8
+#EXTINF:-1,tvg-name="CCTV-6",tvg-logo="https://upload.112114.xyz/logo/cn/cctv/CCTV-6.png" group-title="央视",CCTV-6电影
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/7/live.m3u8
+#EXTINF:-1,tvg-name="CCTV-7",tvg-logo="https://upload.112114.xyz/logo/cn/cctv/CCTV-7.png" group-title="央视",CCTV-7国防军事
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/8/live.m3u8
+#EXTINF:-1,tvg-name="CCTV-8",tvg-logo="https://upload.112114.xyz/logo/cn/cctv/CCTV-8.png" group-title="央视",CCTV-8电视剧
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/9/live.m3u8
+#EXTINF:-1,tvg-name="CCTV-9",tvg-logo="https://upload.112114.xyz/logo/cn/cctv/CCTV-9.png" group-title="央视",CCTV-9纪录
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/10/live.m3u8
+#EXTINF:-1,tvg-name="CCTV-10",tvg-logo="https://upload.112114.xyz/logo/cn/cctv/CCTV-10.png" group-title="央视",CCTV-10科教
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/11/live.m3u8
+#EXTINF:-1,tvg-name="CCTV-11",tvg-logo="https://upload.112114.xyz/logo/cn/cctv/CCTV-11.png" group-title="央视",CCTV-11戏曲
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/12/live.m3u8
+#EXTINF:-1,tvg-name="CCTV-12",tvg-logo="https://upload.112114.xyz/logo/cn/cctv/CCTV-12.png" group-title="央视",CCTV-12社会与法
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/13/live.m3u8
+#EXTINF:-1,tvg-name="CCTV-13",tvg-logo="https://upload.112114.xyz/logo/cn/cctv/CCTV-13.png" group-title="央视",CCTV-13新闻
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/14/live.m3u8
+#EXTINF:-1,tvg-name="CCTV-14",tvg-logo="https://upload.112114.xyz/logo/cn/cctv/CCTV-14.png" group-title="央视",CCTV-14少儿
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/15/live.m3u8
+#EXTINF:-1,tvg-name="CCTV-15",tvg-logo="https://upload.112114.xyz/logo/cn/cctv/CCTV-15.png" group-title="央视",CCTV-15音乐
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/16/live.m3u8
+#EXTINF:-1,tvg-name="CGTN",tvg-logo="https://upload.112114.xyz/logo/cn/cgtn.png" group-title="CGTN",CGTN中国环球电视网
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/17/live.m3u8
+#EXTINF:-1,tvg-name="重庆卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86.png" group-title="卫视",重庆卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/18/live.m3u8
+#EXTINF:-1,tvg-name="浙江卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="卫视",浙江卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/19/live.m3u8
+#EXTINF:-1,tvg-name="江苏卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86.png" group-title="卫视",江苏卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/20/live.m3u8
+#EXTINF:-1,tvg-name="东方卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png" group-title="卫视",东方卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/21/live.m3u8
+#EXTINF:-1,tvg-name="湖南卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="卫视",湖南卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/22/live.m3u8
+#EXTINF:-1,tvg-name="东南卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E4%B8%9C%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="卫视",东南卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/23/live.m3u8
+#EXTINF:-1,tvg-name="云南卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E4%BA%91%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="卫视",云南卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/24/live.m3u8
+#EXTINF:-1,tvg-name="安徽卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86.png" group-title="卫视",安徽卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/25/live.m3u8
+#EXTINF:-1,tvg-name="辽宁卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86.png" group-title="卫视",辽宁卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/26/live.m3u8
+#EXTINF:-1,tvg-name="北京卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png" group-title="卫视",北京卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/27/live.m3u8
+#EXTINF:-1,tvg-name="广东卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="卫视",广东卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/28/live.m3u8
+#EXTINF:-1,tvg-name="河南卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="卫视",河南卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/29/live.m3u8
+#EXTINF:-1,tvg-name="贵州卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E8%B4%B5%E5%B7%9E%E5%8D%AB%E8%A7%86.png" group-title="卫视",贵州卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/30/live.m3u8
+#EXTINF:-1,tvg-name="湖北卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86.png" group-title="卫视",湖北卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/31/live.m3u8
+#EXTINF:-1,tvg-name="宁夏卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E5%AE%81%E5%A4%8F%E5%8D%AB%E8%A7%86.png" group-title="卫视",宁夏卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/32/live.m3u8
+#EXTINF:-1,tvg-name="新疆卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86.png" group-title="卫视",新疆卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/33/live.m3u8
+#EXTINF:-1,tvg-name="山东卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="卫视",山东卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/34/live.m3u8
+#EXTINF:-1,tvg-name="陕西卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E9%99%95%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="卫视",陕西卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/35/live.m3u8
+#EXTINF:-1,tvg-name="天津卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86.png" group-title="卫视",天津卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/36/live.m3u8
+#EXTINF:-1,tvg-name="西藏卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86.png" group-title="卫视",西藏卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/37/live.m3u8
+#EXTINF:-1,tvg-name="甘肃卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E7%94%98%E8%82%83%E5%8D%AB%E8%A7%86.png" group-title="卫视",甘肃卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/38/live.m3u8
+#EXTINF:-1,tvg-name="内蒙古卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%AB%E8%A7%86.png" group-title="卫视",内蒙古卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/39/live.m3u8
+#EXTINF:-1,tvg-name="黑龙江卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="卫视",黑龙江卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/40/live.m3u8
+#EXTINF:-1,tvg-name="山西卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E5%B1%B1%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="卫视",山西卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/41/live.m3u8
+#EXTINF:-1,tvg-name="青海卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E9%9D%92%E6%B5%B7%E5%8D%AB%E8%A7%86.png" group-title="卫视",青海卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/42/live.m3u8
+#EXTINF:-1,tvg-name="广西卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="卫视",广西卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/43/live.m3u8
+#EXTINF:-1,tvg-name="河北卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E6%B2%B3%E5%8C%97%E5%8D%AB%E8%A7%86.png" group-title="卫视",河北卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/44/live.m3u8
+#EXTINF:-1,tvg-name="四川卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86.png" group-title="卫视",四川卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/45/live.m3u8
+#EXTINF:-1,tvg-name="吉林卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86.png" group-title="卫视",吉林卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/46/live.m3u8
+#EXTINF:-1,tvg-name="江西卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="卫视",江西卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/47/live.m3u8
+#EXTINF:-1,tvg-name="深圳卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86.png" group-title="卫视",深圳卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/48/live.m3u8
+#EXTINF:-1,tvg-name="海南卫视",tvg-logo="https://upload.112114.xyz/logo/cn/weishi/%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="卫视",海南卫视
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/49/live.m3u8
+#EXTINF:-1,tvg-name="卡酷少儿",tvg-logo="https://upload.112114.xyz/logo/BTVKaku.png" group-title="其它",卡酷少儿
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/50/live.m3u8
+#EXTINF:-1,tvg-name="金鹰卡通",tvg-logo="https://upload.112114.xyz/logo/%E9%87%91%E9%B9%B0%E5%8D%A1%E9%80%9A.png" group-title="卫视",金鹰卡通
+http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/51/live.m3u8
