@@ -27,10 +27,20 @@
         // 跨域地址判定
         if (corsState == 'beijing') {
             cors_api = 'https://cors.ow3.cn/';
+        } else if (corsState == 'shanghai') {
+            cors_api = 'https://node.csj-cy.com/';
+        } else if (corsState == 'HK') {
+            cors_api = 'https://abc.wkyteam.com/';
+        } else if (corsState == 'TW') {
+            cors_api = 'https://cors-anywhere.small-service.gpeastasia.org/';
+        } else if (corsState == 'US') {
+            cors_api = 'https://proxy.newbgp.com.br/';
         } else {
             cors_api = 'https://cors.ow3.cn/';
         }
+        // 检测是否有logo
         if (logo) {
+            // 初始化播放器
             window.dpFloat = new DPlayer({
                 container: document.getElementById('dplayer'),
                 live: true,
@@ -43,6 +53,7 @@
                 }
             });
         } else {
+            // 初始化播放器
             window.dpFloat = new DPlayer({
                 container: document.getElementById('dplayer'),
                 live: true,
