@@ -16,7 +16,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dplayer/1.27.1/DPlayer.min.js"></script>
     <!-- 配置播放器 -->
     <script>
-        cors_api = ''; //初始化跨域
         // 监听请求
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
@@ -26,9 +25,9 @@
         const corsAnywhereUrl = cors_api; // Cors Anywhere API
         // 跨域地址判定
         if (corsState = 'beijing'){
-            cors_api = 'https://cors.ow3.cn/';
+            const cors_api = 'https://cors.ow3.cn/';
         } else {
-            cors_api = 'https://cors.ow3.cn/';
+            const cors_api = 'https://cors.ow3.cn/';
         }
         if (logo) {
             window.dpFloat = new DPlayer({
