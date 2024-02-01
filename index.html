@@ -110,7 +110,7 @@
                     <div class="player-box-main">
                         <div class="player-wrapper">
                             <div class="MacPlayer">
-                                <iframe src="dplayer-live.html?url=http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/2/live.m3u8&logo=https://upload.112114.xyz/logo/cn/cctv/CCTV-1.png"
+                                <iframe src="player.html?url=http://jinjiang.chongqing.moetv.sn-m.xyz:8089/newlive/live/hls/2/live.m3u8&logo=https://upload.112114.xyz/logo/cn/cctv/CCTV-1.png"
                                     width="100%" id="myiframe" scrolling="no" frameborder="0"
                                     allowfullscreen="true"></iframe>
                             </div>
@@ -214,7 +214,7 @@
         $(".btnplay").each(function () {
             $(this).click(function () {
                 var url = $(this).attr("data-url");
-                var jj = 'dplayer-live.html?url=';
+                var jj = 'player.html?url=';
                 $("#myiframe").attr("src", jj + url);
                 $(this).addClass("selected").removeClass("");
                 $(this).siblings().removeClass("selected").addClass("");
