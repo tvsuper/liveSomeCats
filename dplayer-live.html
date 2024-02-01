@@ -17,13 +17,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dplayer/1.27.1/DPlayer.min.js"></script>
     <!-- 配置播放器 -->
     <script>
-        const cors_api = 'https://cors.ow3.cn/'; //cors-anywhere 跨域请求API，默认'https://cors-anywhere.herokuapp.com/'。
+        var cors_api = ''; //初始化跨域
         // 监听请求
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
         const url = urlParams.get('url');
         const logo = urlParams.get('logo');
+        const corsState = urlParams.get('cors');
         const corsAnywhereUrl = cors_api; // Cors Anywhere API
+        // 跨域地址判定
+        if (corsState = 'beijing'){
+            cors_api = 'https://cors.ow3.cn/';
+        } else {
+            cors_api = 'https://cors.ow3.cn/';
+        }
         if (logo) {
             window.dpFloat = new DPlayer({
                 container: document.getElementById('dplayer'),
