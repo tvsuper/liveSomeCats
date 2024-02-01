@@ -22,11 +22,13 @@
         const url = urlParams.get('url');
         const logo = urlParams.get('logo');
         const corsState = urlParams.get('cors');
+        // 初始化 cors_api
+        let cors_api;
         // 跨域地址判定
         if (corsState == 'beijing') {
-            const cors_api = 'https://cors.ow3.cn/';
+            cors_api = 'https://cors.ow3.cn/';
         } else {
-            const cors_api = 'https://cors.ow3.cn/';
+            cors_api = 'https://cors.ow3.cn/';
         }
         if (logo) {
             window.dpFloat = new DPlayer({
