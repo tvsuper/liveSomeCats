@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <title>DPlayer直播</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="favicon.ico" type="image/png" />
 </head>
-
 <body bgcolor="black">
     <div id="float-dplayer" class="float-dplayer">
         <div id="dplayer" style="position:absolute;width:100%;height:100%;"></div>
@@ -17,7 +16,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dplayer/1.27.1/DPlayer.min.js"></script>
     <!-- 配置播放器 -->
     <script>
-        var cors_api = ''; //初始化跨域
+        let cors_api; //初始化跨域
         // 监听请求
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
