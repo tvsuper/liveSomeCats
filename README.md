@@ -1,6 +1,6 @@
 # 电视直播源-公益可用的直播列表-LiveSomeCats🐱猫咪直播
 ## 公益维护电视直播接口、TVbox、IPTV、BIUBIU TV、Kodi等影视及m3u8播放器通用接口都可以观看
-支持台标显示，支持节目单
+支持台标显示，支持节目单 [更多信息](https://tvsuper.github.io/%E7%9B%B4%E6%92%AD%E5%88%97%E8%A1%A8.html)
 ## 电视直播源如何使用
 我们采用通用的 M3U 格式，您也可以自行通过我们开发的转换器 [将于此项目内置](https://github.com/tvsuper/epg) 转换为多种格式使用
 ## 重要说明
