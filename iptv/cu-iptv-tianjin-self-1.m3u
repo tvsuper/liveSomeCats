@@ -1,0 +1,345 @@
+#EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml.gz"
+#EXTINF:-1,tvg-name="导视频道",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/iptv.png" group-title="导视",导视频道
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.243:5002
+#EXTINF:-1,tvg-name="导视频道-1",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/iptv.png" group-title="导视",导视频道-1
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.109:5002
+#EXTINF:-1,tvg-name="导视频道-1-HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/iptv.png" group-title="导视",导视频道-1-HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.108:5002
+#EXTINF:-1,tvg-name="导视频道-2",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/iptv.png" group-title="导视",导视频道-2
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.132:5002
+#EXTINF:-1,tvg-name="天津卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/tianjin.png" group-title="天津",天津卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.1:5002
+#EXTINF:-1,tvg-name="天津卫视HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/tianjin.png" group-title="天津",天津卫视HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.111:5002
+#EXTINF:-1,tvg-name="天津新闻",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/news.png" group-title="天津",天津新闻
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.2:5002
+#EXTINF:-1,tvg-name="天津新闻HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/news.png" group-title="天津",天津新闻HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.130:5002
+#EXTINF:-1,tvg-name="天津文艺",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/literature-and-art.png" group-title="天津",天津文艺
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.3:5002
+#EXTINF:-1,tvg-name="天津文艺HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/literature-and-art.png" group-title="天津",天津文艺HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.131:5002
+#EXTINF:-1,tvg-name="天津影视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/film-and-television.png" group-title="天津",天津影视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.4:5002
+#EXTINF:-1,tvg-name="天津影视HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/film-and-television.png" group-title="天津",天津影视HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.149:5002
+#EXTINF:-1,tvg-name="天津都市",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/city.png" group-title="天津",天津都市
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.5:5002
+#EXTINF:-1,tvg-name="天津都市HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/city.png" group-title="天津",天津都市HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.128:5002
+#EXTINF:-1,tvg-name="天津体育",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/sports.png" group-title="天津",天津体育
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.6:5002
+#EXTINF:-1,tvg-name="天津体育HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/sports.png" group-title="天津",天津体育HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.122:5002
+#EXTINF:-1,tvg-name="天津教育",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/educate.png" group-title="天津",天津教育
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.7:5002
+#EXTINF:-1,tvg-name="天津教育HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/educate.png" group-title="天津",天津教育HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.129:5002
+#EXTINF:-1,tvg-name="天津蓟州",tvg-logo="" group-title="天津",天津蓟州
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.81:5002
+#EXTINF:-1,tvg-name="天津蓟州HD",tvg-logo="" group-title="天津",天津蓟州HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.82:5002
+#EXTINF:-1,tvg-name="天津BDTV",tvg-logo="" group-title="天津",天津BDTV
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.83:5002
+#EXTINF:-1,tvg-name="天津静海",tvg-logo="" group-title="天津",天津静海
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.110:5002
+#EXTINF:-1,tvg-name="天津文旅",tvg-logo="" group-title="天津",天津文旅
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.244:5002
+#EXTINF:-1,tvg-name="CCTV-1",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv1.png" group-title="央视",CCTV-1综合
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.12:5002
+#EXTINF:-1,tvg-name="CCTV-1-HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv1.png" group-title="央视",CCTV-1综合HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.120:5002
+#EXTINF:-1,tvg-name="CCTV-1-HD-备用",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv1.png" group-title="央视",CCTV-1综合HD-备用
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.212:5002
+#EXTINF:-1,tvg-name="CCTV-2",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv2.png" group-title="央视",CCTV-2财经
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.13:5002
+#EXTINF:-1,tvg-name="CCTV-2-HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv2.png" group-title="央视",CCTV-2财经HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.133:5002
+#EXTINF:-1,tvg-name="CCTV-3",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv3.png" group-title="央视",CCTV-3综艺
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.14:5002
+#EXTINF:-1,tvg-name="CCTV-3-HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv3.png" group-title="央视",CCTV-3综艺HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.158:5002
+#EXTINF:-1,tvg-name="CCTV-4",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv4.png" group-title="央视",CCTV-4中文国际
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.15:5002
+#EXTINF:-1,tvg-name="CCTV-4-HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv4.png" group-title="央视",CCTV-4中文国际HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.150:5002
+#EXTINF:-1,tvg-name="CCTV-5",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv5.png" group-title="央视",CCTV-5体育
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.16:5002
+#EXTINF:-1,tvg-name="CCTV-5-HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv5.png" group-title="央视",CCTV-5体育HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.160:5002
+#EXTINF:-1,tvg-name="CCTV-5+-HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv5+.png" group-title="央视",CCTV-5+体育赛事HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.121:5002
+#EXTINF:-1,tvg-name="CCTV-6",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv6.png" group-title="央视",CCTV-6电影
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.17:5002
+#EXTINF:-1,tvg-name="CCTV-6-HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv6.png" group-title="央视",CCTV-6电影HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.195:5002
+#EXTINF:-1,tvg-name="CCTV-7",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv7.png" group-title="央视",CCTV-7国防军事
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.18:5002
+#EXTINF:-1,tvg-name="CCTV-7-HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv7.png" group-title="央视",CCTV-7国防军事HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.138:5002
+#EXTINF:-1,tvg-name="CCTV-8",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv8.png" group-title="央视",CCTV-8电视剧
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.19:5002
+#EXTINF:-1,tvg-name="CCTV-8-HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv8.png" group-title="央视",CCTV-8电视剧HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.196:5002
+#EXTINF:-1,tvg-name="CCTV-9",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv9.png" group-title="央视",CCTV-9纪录
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.20:5002
+#EXTINF:-1,tvg-name="CCTV-9-HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv9.png" group-title="央视",CCTV-9纪录HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.119:5002
+#EXTINF:-1,tvg-name="CCTV-10",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv10.png" group-title="央视",CCTV-10科教
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.21:5002
+#EXTINF:-1,tvg-name="CCTV-10-HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv10.png" group-title="央视",CCTV-10科教HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.140:5002
+#EXTINF:-1,tvg-name="CCTV-11",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv11.png" group-title="央视",CCTV-11戏曲
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.22:5002
+#EXTINF:-1,tvg-name="CCTV-12",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv12.png" group-title="央视",CCTV-12社会与法
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.23:5002
+#EXTINF:-1,tvg-name="CCTV-12-HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv12.png" group-title="央视",CCTV-12社会与法HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.142:5002
+#EXTINF:-1,tvg-name="CCTV-13",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv13.png" group-title="央视",CCTV-13新闻
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.24:5002
+#EXTINF:-1,tvg-name="CCTV-14",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv14.png" group-title="央视",CCTV-14少儿
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.25:5002
+#EXTINF:-1,tvg-name="CCTV-14-HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv14.png" group-title="央视",CCTV-14少儿HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.144:5002
+#EXTINF:-1,tvg-name="CCTV-15",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cctv/cctv15.png" group-title="央视",CCTV-15音乐
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.26:5002
+#EXTINF:-1,tvg-name="CGTN",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cgtn/cgtn.png" group-title="CGTN",CGTN中国环球电视网
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.27:5002
+#EXTINF:-1,tvg-name="CGTN纪录",tvg-logo="https://tvsuper.github.io/TVlogo/cn/cgtn/cgtn-record-gold.png" group-title="CGTN",CGTN纪录
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.55:5002
+#EXTINF:-1,tvg-name="黑龙江卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/heilongjiang.png" group-title="卫视",黑龙江卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.28:5002
+#EXTINF:-1,tvg-name="黑龙江卫视HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/heilongjiang.png" group-title="卫视",黑龙江卫视HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.115:5002
+#EXTINF:-1,tvg-name="广东卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/guangdong.png" group-title="卫视",广东卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.29:5002
+#EXTINF:-1,tvg-name="广东卫视HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/guangdong.png" group-title="卫视",广东卫视HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.116:5002
+#EXTINF:-1,tvg-name="甘肃卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/gansu.png" group-title="卫视",甘肃卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.30:5002
+#EXTINF:-1,tvg-name="甘肃卫视HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/gansu.png" group-title="卫视",甘肃卫视HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.150:5002
+#EXTINF:-1,tvg-name="海南卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/hainan.png" group-title="卫视",海南卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.31:5002
+#EXTINF:-1,tvg-name="内蒙古卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/neimenggu.png" group-title="卫视",内蒙古卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.32:5002
+#EXTINF:-1,tvg-name="浙江卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/zhejiang.png" group-title="卫视",浙江卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.33:5002
+#EXTINF:-1,tvg-name="湖南卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/hunan.png" group-title="卫视",湖南卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.34:5002
+#EXTINF:-1,tvg-name="湖南卫视HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/hunan.png" group-title="卫视",湖南卫视HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.114:5002
+#EXTINF:-1,tvg-name="新疆卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/xinjiang.png" group-title="卫视",新疆卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.35:5002
+#EXTINF:-1,tvg-name="湖北卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/hubei.png" group-title="卫视",湖北卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.36:5002
+#EXTINF:-1,tvg-name="湖北卫视HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/hubei.png" group-title="卫视",湖北卫视HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.147:5002
+#EXTINF:-1,tvg-name="四川卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/sichuan.png" group-title="卫视",四川卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.37:5002
+#EXTINF:-1,tvg-name="四川卫视HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/sichuan.png" group-title="卫视",四川卫视HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.123:5002
+#EXTINF:-1,tvg-name="江西卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/jiangxi.png" group-title="卫视",江西卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.39:5002
+#EXTINF:-1,tvg-name="辽宁卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/liaoning.png" group-title="卫视",辽宁卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.40:5002
+#EXTINF:-1,tvg-name="辽宁卫视HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/liaoning.png" group-title="卫视",辽宁卫视HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.154:5002
+#EXTINF:-1,tvg-name="陕西卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/shaanxi.png" group-title="卫视",陕西卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.41:5002
+#EXTINF:-1,tvg-name="安徽卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/anhui.png" group-title="卫视",安徽卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.42:5002
+#EXTINF:-1,tvg-name="安徽卫视HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/anhui.png" group-title="卫视",安徽卫视HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.127:5002
+#EXTINF:-1,tvg-name="深圳卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/shenzhen.png" group-title="卫视",深圳卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.43:5002
+#EXTINF:-1,tvg-name="深圳卫视HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/shenzhen.png" group-title="卫视",深圳卫视HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.117:5002
+#EXTINF:-1,tvg-name="吉林卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/jilin.png" group-title="卫视",吉林卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.44:5002
+#EXTINF:-1,tvg-name="东方卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/dongfang.png" group-title="卫视",东方卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.45:5002
+#EXTINF:-1,tvg-name="北京卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/beijing.png" group-title="卫视",北京卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.47:5002
+#EXTINF:-1,tvg-name="北京卫视HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/beijing.png" group-title="卫视",北京卫视HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.113:5002
+#EXTINF:-1,tvg-name="河北卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/hebei.png" group-title="卫视",河北卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.49:5002
+#EXTINF:-1,tvg-name="山西卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/shanxi.png" group-title="卫视",山西卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.50:5002
+#EXTINF:-1,tvg-name="西藏卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/xizang.png" group-title="卫视",西藏卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.51:5002
+#EXTINF:-1,tvg-name="江苏卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/jiangsu.png" group-title="卫视",江苏卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.52:5002
+#EXTINF:-1,tvg-name="江苏卫视HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/jiangsu.png" group-title="卫视",江苏卫视HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.126:5002
+#EXTINF:-1,tvg-name="河南卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/henan.png" group-title="卫视",河南卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.53:5002
+#EXTINF:-1,tvg-name="青海卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/qinghai.png" group-title="卫视",青海卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.54:5002
+#EXTINF:-1,tvg-name="宁夏卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/ningxia.png" group-title="卫视",宁夏卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.56:5002
+#EXTINF:-1,tvg-name="兵团卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/bingtuan.png" group-title="卫视",兵团卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.57:5002
+#EXTINF:-1,tvg-name="重庆卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/chongqing.png" group-title="卫视",重庆卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.60:5002
+#EXTINF:-1,tvg-name="重庆卫视HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/chongqing.png" group-title="卫视",重庆卫视HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.155:5002
+#EXTINF:-1,tvg-name="云南卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/yunnan.png" group-title="卫视",云南卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.61:5002
+#EXTINF:-1,tvg-name="贵州卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/guizhou.png" group-title="卫视",贵州卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.63:5002
+#EXTINF:-1,tvg-name="三沙卫视",tvg-logo="https://tvsuper.github.io/TVlogo/cn/satellite/sansha.png" group-title="卫视",三沙卫视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.182:5002
+#EXTINF:-1,tvg-name="中央新影发现之旅",tvg-logo="" group-title="中央新影",中央新影发现之旅
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.183:5002
+#EXTINF:-1,tvg-name="中央新影老故事",tvg-logo="" group-title="中央新影",中央新影老故事
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.188:5002
+#EXTINF:-1,tvg-name="中央新影中学生",tvg-logo="" group-title="中央新影",中央新影中学生
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.193:5002
+#EXTINF:-1,tvg-name="卡酷少儿",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/beijing/btv-kaku.png" group-title="少儿&动漫",卡酷少儿
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.58:5002
+#EXTINF:-1,tvg-name="哈哈炫动",tvg-logo="" group-title="少儿&动漫",哈哈炫动
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.62:5002
+#EXTINF:-1,tvg-name="动漫秀场",tvg-logo="" group-title="少儿&动漫",动漫秀场
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.67:5002
+#EXTINF:-1,tvg-name="动漫秀场HD",tvg-logo="" group-title="少儿&动漫",动漫秀场HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.134:5002
+#EXTINF:-1,tvg-name="新动漫",tvg-logo="" group-title="少儿&动漫",新动漫
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.216:5002
+#EXTINF:-1,tvg-name="精彩影视",tvg-logo="" group-title="影视",精彩影视
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.141:5002
+#EXTINF:-1,tvg-name="CHC家庭影院",tvg-logo="" group-title="影视",CHC家庭影院
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.220:5002
+#EXTINF:-1,tvg-name="CHC家庭影院HD",tvg-logo="" group-title="影视",CHC家庭影院HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.213:5002
+#EXTINF:-1,tvg-name="CHC高清电影",tvg-logo="" group-title="影视",CHC高清电影
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.214:5002
+#EXTINF:-1,tvg-name="CHC动作电影",tvg-logo="" group-title="影视",CHC动作电影
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.221:5002
+#EXTINF:-1,tvg-name="CHC动作电影HD",tvg-logo="" group-title="影视",CHC动作电影HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.215:5002
+#EXTINF:-1,tvg-name="欢笑剧场",tvg-logo="" group-title="剧场",欢笑剧场
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.71:5002
+#EXTINF:-1,tvg-name="欢笑剧场4K",tvg-logo="" group-title="剧场",欢笑剧场4K
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.139:5002
+#EXTINF:-1,tvg-name="欢笑剧场4K-备用",tvg-logo="" group-title="剧场",欢笑剧场4K-备用
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.152:5002
+#EXTINF:-1,tvg-name="都市剧场",tvg-logo="" group-title="剧场",都市剧场
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.75:5002
+#EXTINF:-1,tvg-name="都市剧场HD",tvg-logo="" group-title="剧场",都市剧场HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.146:5002
+#EXTINF:-1,tvg-name="天下足球",tvg-logo="" group-title="运动",天下足球
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.105:5002
+#EXTINF:-1,tvg-name="魅力足球",tvg-logo="" group-title="运动",魅力足球
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.137:5002
+#EXTINF:-1,tvg-name="先锋兵羽",tvg-logo="" group-title="运动",先锋兵羽
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.219:5002
+#EXTINF:-1,tvg-name="三佳购物",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/sanjiagouwu.png" group-title="购物",三佳购物
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.11:5002
+#EXTINF:-1,tvg-name="三佳购物HD",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/sanjiagouwu.png" group-title="购物",三佳购物HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.118:5002
+#EXTINF:-1,tvg-name="三佳购物HD-备用",tvg-logo="https://tvsuper.github.io/TVlogo/cn/place/tianjin/sanjiagouwu.png" group-title="购物",三佳购物HD-备用
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.151:5002
+#EXTINF:-1,tvg-name="央广购物",tvg-logo="" group-title="购物",央广购物
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.65:5002
+#EXTINF:-1,tvg-name="央广购物-备用",tvg-logo="" group-title="购物", 央广购物-备用
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.238:5002
+#EXTINF:-1,tvg-name="东方购物",tvg-logo="" group-title="购物",东方购物
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.181:5002
+#EXTINF:-1,tvg-name="聚鲨环球精选",tvg-logo="" group-title="购物",聚鲨环球精选
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.102:5002
+#EXTINF:-1,tvg-name="聚鲨环球精选2",tvg-logo="" group-title="购物",聚鲨环球精选2
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.245:5002
+#EXTINF:-1,tvg-name="好享购物",tvg-logo="" group-title="购物",好享购物
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.224:5002
+#EXTINF:-1,tvg-name="优购物",tvg-logo="" group-title="购物",优购物
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.225:5002
+#EXTINF:-1,tvg-name="优购物HD",tvg-logo="" group-title="购物",优购物HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.157:5002
+#EXTINF:-1,tvg-name="家有购物",tvg-logo="" group-title="购物",家有购物
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.226:5002
+#EXTINF:-1,tvg-name="家家购物",tvg-logo="" group-title="购物",家家购物
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.227:5002
+#EXTINF:-1,tvg-name="时尚购物",tvg-logo="" group-title="购物",时尚购物
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.242:5002
+#EXTINF:-1,tvg-name="游戏风云",tvg-logo="" group-title="其它",游戏风云
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.68:5002
+#EXTINF:-1,tvg-name="游戏风云HD",tvg-logo="" group-title="其它",游戏风云HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.135:5002
+#EXTINF:-1,tvg-name="证券服务",tvg-logo="" group-title="其它",证券服务
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.72:5002
+#EXTINF:-1,tvg-name="生活时尚",tvg-logo="" group-title="其它",生活时尚
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.73:5002
+#EXTINF:-1,tvg-name="生活时尚HD",tvg-logo="" group-title="其它",生活时尚HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.143:5002
+#EXTINF:-1,tvg-name="乐游",tvg-logo="" group-title="其它",乐游
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.74:5002
+#EXTINF:-1,tvg-name="乐游HD",tvg-logo="" group-title="其它",乐游HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.145:5002
+#EXTINF:-1,tvg-name="法治天地",tvg-logo="" group-title="其它",法治天地
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.84:5002
+#EXTINF:-1,tvg-name="法治天地HD",tvg-logo="" group-title="其它",法治天地HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.237:5002
+#EXTINF:-1,tvg-name="金色学堂",tvg-logo="" group-title="其它",金色学堂
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.85:5002
+#EXTINF:-1,tvg-name="金色学堂HD",tvg-logo="" group-title="其它",金色学堂HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.236:5002
+#EXTINF:-1,tvg-name="金鹰纪实",tvg-logo="" group-title="其它",金鹰纪实
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.124:5002
+#EXTINF:-1,tvg-name="环球奇观",tvg-logo="" group-title="其它",环球奇观
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.197:5002
+#EXTINF:-1,tvg-name="汽摩",tvg-logo="" group-title="其它",汽摩
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.205:5002
+#EXTINF:-1,tvg-name="东方财经",tvg-logo="" group-title="其它",东方财经
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.247:5002
+#EXTINF:-1,tvg-name="广电Unknown",tvg-logo="" group-title="Unknown",广电Unknown
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.107:5002
+#EXTINF:-1,tvg-name="广电Unknown-HD",tvg-logo="" group-title="Unknown",广电Unknown-HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.106:5002
+#EXTINF:-1,tvg-name="CCTV-Unknown",tvg-logo="" group-title="Unknown",CCTV-Unknown
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.201:5002
+#EXTINF:-1,tvg-name="BesTV-1",tvg-logo="" group-title="BesTV",BesTV-1
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.162:5002
+#EXTINF:-1,tvg-name="BesTV-2",tvg-logo="" group-title="BesTV",BesTV-2
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.163:5002
+#EXTINF:-1,tvg-name="BesTV-3",tvg-logo="" group-title="BesTV",BesTV-3
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.164:5002
+#EXTINF:-1,tvg-name="BesTV-4",tvg-logo="" group-title="BesTV",BesTV-4
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.165:5002
+#EXTINF:-1,tvg-name="BesTV-5",tvg-logo="" group-title="BesTV",BesTV-5
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.166:5002
+#EXTINF:-1,tvg-name="BesTV-6",tvg-logo="" group-title="BesTV",BesTV-6
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.167:5002
+#EXTINF:-1,tvg-name="BesTV-7",tvg-logo="" group-title="BesTV",BesTV-7
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.168:5002
+#EXTINF:-1,tvg-name="BesTV-8",tvg-logo="" group-title="BesTV",BesTV-8
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.169:5002
+#EXTINF:-1,tvg-name="BesTV-9",tvg-logo="" group-title="BesTV",BesTV-9
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.170:5002
+#EXTINF:-1,tvg-name="BesTV-10",tvg-logo="" group-title="BesTV",BesTV-10
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.211:5002
+#EXTINF:-1,tvg-name="天津文艺广播",tvg-logo="" group-title="广播",天津文艺广播
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.171:5002
+#EXTINF:-1,tvg-name="天津经济广播",tvg-logo="" group-title="广播",天津经济广播
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.172:5002
+#EXTINF:-1,tvg-name="天津新闻广播",tvg-logo="" group-title="广播",天津新闻广播
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.173:5002
+#EXTINF:-1,tvg-name="天津生活广播",tvg-logo="" group-title="广播",天津生活广播
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.174:5002
+#EXTINF:-1,tvg-name="天津交通广播",tvg-logo="" group-title="广播",天津交通广播
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.175:5002
+#EXTINF:-1,tvg-name="天津相声广播",tvg-logo="" group-title="广播",天津相声广播
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.176:5002
+#EXTINF:-1,tvg-name="天津小说广播",tvg-logo="" group-title="广播",天津小说广播
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.177:5002
+#EXTINF:-1,tvg-name="天津滨海广播",tvg-logo="" group-title="广播",天津滨海广播
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.178:5002
+#EXTINF:-1,tvg-name="天津音乐广播",tvg-logo="" group-title="广播",天津音乐广播
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.179:5002
+#EXTINF:-1,tvg-name="天津农村广播",tvg-logo="" group-title="广播",天津农村广播
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.180:5002
+#EXTINF:-1,tvg-name="敬请期待",tvg-logo="" group-title="敬请期待",敬请期待
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.78:5002
+#EXTINF:-1,tvg-name="敬请期待HD",tvg-logo="" group-title="敬请期待",敬请期待HD
+http://cuiptv.tianjin.moetv.sn-m.xyz:4022/udp/225.1.1.79:5002
